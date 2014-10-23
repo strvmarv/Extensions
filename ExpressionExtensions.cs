@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Ctc.VisualCactus.Extensions
+namespace Extensions
 {
     public static class ExpressionExtensions
     {
