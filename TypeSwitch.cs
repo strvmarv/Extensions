@@ -5,6 +5,8 @@ using System.Text;
 
 namespace Extensions
 {
+    // Credit: JaredPar
+    // Source: http://stackoverflow.com/a/299120/578859
     public static class TypeSwitch
     {
         public static CaseInfo Case<T>(Action action)
