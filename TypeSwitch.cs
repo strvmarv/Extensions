@@ -7,6 +7,7 @@ namespace Extensions
 {
     // Credit: JaredPar
     // Source: http://stackoverflow.com/a/299120/578859
+    // License: https://creativecommons.org/licenses/by-sa/3.0/
     public static class TypeSwitch
     {
         public static CaseInfo Case<T>(Action action)
