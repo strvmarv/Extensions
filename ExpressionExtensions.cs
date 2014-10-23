@@ -5,6 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
+// Credit: Unknown
 namespace Extensions
 {
     public static class ExpressionExtensions
