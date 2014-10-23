@@ -5,6 +5,8 @@ using System.Text;
 
 namespace Extensions
 {
+    // Credit: plunje
+    // Source: http://stackoverflow.com/a/4440606/578859
     public static class ObjectComparator<T>
     {
         public static bool CompareProperties(T newObject, T oldObject)
