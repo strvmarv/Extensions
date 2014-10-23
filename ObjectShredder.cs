@@ -7,6 +7,9 @@ using System.Text;
 
 namespace Extensions
 {
+    // Credit: Microsoft
+    // Source: http://msdn.microsoft.com/en-us/library/bb669096(v=vs.110).aspx
+    // License: http://msdn.microsoft.com/en-us/cc300389.aspx
     public class ObjectShredder<T>
     {
         private FieldInfo[] _fi;
