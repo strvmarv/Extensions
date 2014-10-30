@@ -71,6 +71,24 @@ namespace Extensions
             else throw new ApplicationException(string.Format("Start Index ({0}) cannot exceed string input Length ({1})", startIndex, input.Length));
         }
 
+        public static string SafeTrim(this string input)
+        {
+            if (input == null) return input;
+            return input.Trim();
+        }
+
+        public static string SafeTrimEnd(this string input)
+        {
+            if (input == null) return input;
+            return input.TrimEnd();
+        }
+
+        public static string SafeTrimStart(this string input)
+        {
+            if (input == null) return input;
+            return input.TrimStart();
+        }
+
         public static string SanitizeHtmlString(this string input)
         {
             if (string.IsNullOrEmpty(input)) return null;
